@@ -25,4 +25,6 @@ func main() {
 
 	fmt.Println("        ", a.GetSumStr(), "   -   ", b.SumPoint())
 
+	fmt.Println("sq1= ", b.Square(), "  b = ", b)
+	fmt.Println("sq2= ", b.Square2(), "  b = ", b)
 }

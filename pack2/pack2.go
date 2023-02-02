@@ -13,5 +13,13 @@ func (point *PackA) SumPoint() int {
 }
 
 func (point *PackA) Square() int {
-	return point.Y * point.X
+	sq := point.Y * point.X
+	point.Y = 1
+	return sq
+}
+
+func (point PackA) Square2() int {
+	sq := point.Y * point.X
+	point.Y = 3
+	return sq
 }
