@@ -6,6 +6,7 @@ import (
 	"strconv"
 )
 
+// TestStruct ep
 type TestStruct struct {
 	A, B int
 	Str  string
