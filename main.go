@@ -6,7 +6,7 @@ import (
 	"newTest/testStruct"
 )
 
-// Main
+// Main ep
 func main() {
 	fmt.Println("Syka")
 	var (
