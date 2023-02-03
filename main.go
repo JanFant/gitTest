@@ -30,4 +30,5 @@ func main() {
 	fmt.Println("sq2= ", b.Square2(), "  b = ", b)
 
 	fmt.Println("-", a.SubStr())
+	fmt.Println("/", a.DivStr())
 }

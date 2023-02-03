@@ -29,5 +29,5 @@ func (tS *TestStruct) SubStr() string {
 }
 
 func (tS *TestStruct) DivStr() string {
-	return fmt.Sprint(tS.A / tS.B)
+	return fmt.Sprint(float64(tS.A) / float64(tS.B))
 }
