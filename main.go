@@ -17,15 +17,17 @@ func main() {
 	a.CrStr()
 	b.CreatePoints()
 
-	fmt.Println("start   ", a, "     ", b)
+	fmt.Println("start   a: ", a, "     b: ", b)
 
 	a.A, a.B = 12, 21
 	b.X, b.Y = 4, 6
 
-	fmt.Println("changed ", a, "     ", b)
+	fmt.Println("changed a: ", a, "     b: ", b)
 
-	fmt.Println("        ", a.GetSumStr(), "   -   ", b.SumPoint())
+	fmt.Println("+        a: ", a.SumStr(), "      b: ", b.SumPoint())
 
 	fmt.Println("sq1= ", b.Square(), "  b = ", b)
 	fmt.Println("sq2= ", b.Square2(), "  b = ", b)
+
+	fmt.Println("-", a.SubStr())
 }
