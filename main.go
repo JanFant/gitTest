@@ -23,10 +23,10 @@ func main() {
 
 	fmt.Println("changed a: ", a, "     b: ", b)
 
-	fmt.Println("+        a: ", a.GetSumStr(), "      b: ", b.SumPoint())
+	fmt.Println("+        a: ", a.SumStr(), "      b: ", b.SumPoint())
 
 	fmt.Println("sq1= ", b.Square(), "  b = ", b)
 	fmt.Println("sq2= ", b.Square2(), "  b = ", b)
 
-	fmt.Println("-", a.GetSubStr())
+	fmt.Println("-", a.SubStr())
 }
